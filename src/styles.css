@@ -13,7 +13,7 @@
   --background-secondary: #c1bcbc;
   --text-primary: #000000;
   --text-secondary: #377771;
-  --border-shadow: #89868a;
+  --border-shadow: #808080;
   --icon-color: #353535;
 }
 
@@ -27,6 +27,7 @@
 }
 
 .toggler {
+  position: absolute;
   display: flex;
   right: 52vw;
   top: -1vw;
