@@ -3,12 +3,12 @@ import React from "react";
 export default function Toggler(props) {
   return (
     <div className="toggler">
-      <p className="toggler-light">Light</p>
+      <p className="toggler-light">Dark</p>
       <label class="switch">
-        <input type="checkbox" checked onClick={props.toggleDarkMode} />
+        <input type="checkbox" onClick={props.toggleDarkMode} />
         <span class="slider round"></span>
       </label>
-      <p className="toggler-dark">Dark</p>
+      <p className="toggler-dark">Light</p>
     </div>
   );
 }
