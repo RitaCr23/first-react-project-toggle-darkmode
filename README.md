@@ -1,3 +1,5 @@
+First solo project from the React Course https://scrimba.com/learn/learnreact, I added a toggle for a dark mode and light mode feature because I wanted to practise and learn how to do it.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
