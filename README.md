@@ -1,72 +1,63 @@
-First solo project from the React Course https://scrimba.com/learn/learnreact, I added a toggle for a dark mode and light mode feature because I wanted to practise and learn how to do it.
+#  ⚛️ My First React Project
+## ☀️ Updated with a toggle for a dark/light theme 🌙
 
-# Getting Started with Create React App
+## ℹ️ About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solo project that is a part of [Scrimba's React Course](https://scrimba.com/learn/learnreact) by Bob Ziroll.
 
-## Available Scripts
+At the end of every module, there's a solo project to practise all the concepts that were taught on the same module.
 
-In the project directory, you can run:
+Every solo project has a list of features that need to be on the project, and a [Figma design](https://www.figma.com/file/4ctPLUvIn5b5Ep6YPOZWWd/Digital-Business-Card?node-id=0%3A1) to replicate.
 
-### `npm start`
+In this project I had to create a Digital Business Card, with four different components.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The main goal of the project was to practise how to create different components and display them on a page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A few months later, while learning React on the same course, I got too curious on how theme toggles work, so I decided to pick up this project again and implement a toggle for a dark-mode and light-mode to learn how it's done.
 
-### `npm test`
+🌐 [Live Demo of this project]()
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧰 Technologies used
 
-### `npm run build`
+- HTML
+- CSS
+- JavaScript
+- ReactJS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ✅ Solo Project Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `Build a React-App from scratch`
+- `Add separate components for Info (photo, name, title and buttons), About, Interests and Footer with social Icons`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💡 How this project was created
 
-### `npm run eject`
+1.
+- Created a components folder inside src directory to create a `Info`, `About`, `Interests`, `Footer` and a `Toggler` component. 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Created an images folder to add the image I wanted to display on the Business Card
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. 
+- The `Info` component is rendering an Image, name, title, description and two buttons, this component is styled on the CSS file 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- The `About` and `Interests` components are rendering random text and styled on the CSS file
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- The `Footer` component is rendering buttons imported from FontAwesome 
 
-## Learn More
+- The `Toggler` component was the last one being added and is adding the toggler to the project, through props, is receiving the logic to switch themes  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Import all components to the `App` component 
 
-### Code Splitting
+- Create a toggleDarkMode function to switch between light mode and dark mode 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Display each component on the page
 
-### Analyzing the Bundle Size
+## 💻 Setup
+To run this project, install it locally using npm:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```
+$ cd first-react-project
+$ npm install
+$ npm start
+```
